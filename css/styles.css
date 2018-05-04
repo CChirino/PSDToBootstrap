@@ -1,0 +1,96 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+}
+/*Tipografias*/
+h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.h1{
+    font-weight: 300;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 300;
+}
+h3 {
+    font-size: 1.75rem;
+    font-weight: 300;
+}
+h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+h5{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+p {
+    font-weight: 300;
+}
+.card-block .display-1{
+    font-size: 6.25re,;
+}
+/*Fondos*/
+.bg-primary{
+    background-color:#a9eee6 !important;
+}
+a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-primary:hover {
+    background-color: #3c8980!important;
+}
+.btn-primary:hover{
+    background-color: #3c8980;
+    border-color: #3c8980;
+}
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle{
+    background-color: #3c8980;
+    border-color: #3c8980;
+}
+.fondo {
+    background: url('../img/2.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.fondo-2{
+    background-color: rgba(0,0,0,.5);
+    height: 100vh;
+}
+
+.bg-fondo-claro{
+    background-color: #fefaec;
+}
+
+.bg-danger-claro {
+    background-color: #f38181;
+}
+.bg-morado{
+    background-color: #625772;
+}
+/*Botones*/
+.btn{
+    font-size: 1.25rem;
+}
+/*Margenes y padding*/
+.pb-25{
+    font-size: 2.5rem;
+}
+/*Iconos*/
+.iconos{
+    font-size: 2.25rem;
+}
+/*Otros*/
+.card{
+    border: none;
+}
+
+.form-control:focus {
+    border-color: black;
+    box-shadow: 0 0 0 1px rgba(0,0,0,1);
+}
